@@ -47,6 +47,7 @@ body {
 .projectcard {
     background-color: #f5f5f5;
     border-radius: 15px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
 }
 
 #other {
@@ -60,6 +61,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     background-color: #f5f5f5;
     border-radius: 15px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
 }
 
 .announcementcard {
@@ -70,6 +72,7 @@ body {
     grid-template-rows: repeat(4, 1fr);
     background-color: #f5f5f5;
     border-radius: 15px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
 }
 
 #search {
