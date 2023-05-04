@@ -1,3 +1,3 @@
 # Dashboard
 
-!(Dashboard image using grid)[demo.png]
+![Dashboard image using grid](demo.png)
