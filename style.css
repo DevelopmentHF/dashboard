@@ -1,0 +1,52 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#sidebar {
+    border-style: solid;
+}
+
+#mainwrapper {
+    border-style: solid;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+#header {
+    background-color: blue;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+#content > *{
+    border-style: solid;
+    display: grid;
+}
+
+
+#projects {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#other {
+    grid-template-rows: 1fr 1fr;
+}
+
+#announcements {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#trending {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
