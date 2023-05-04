@@ -128,7 +128,13 @@ body {
     align-items: center;
     justify-content: right;
     margin-right: 20px;
-    gap: 50px;
+    gap: 20px;
+    font-weight: bold;
+}
+
+#profile > p {
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
