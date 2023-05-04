@@ -33,6 +33,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
+    margin-left: 15px;
 }
 
 #mainwrapper {
@@ -137,4 +138,11 @@ h3 {
 
 #intro {
     margin-left: 20px;
+}
+
+#user {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
